@@ -32,3 +32,28 @@ This n8n workflow generates a QR code from a given URL and outputs the QR code a
 - HTTP Request (to generate QR code from API like `https://api.qrserver.com/v1/create-qr-code/?data=...`)  
 - Binary Data (convert to image if needed)  
 - Respond with Image (optional)
+
+🔧 Setup Instructions
+Clone this repo or import the workflow in your n8n instance.
+
+Replace any sample API keys or endpoints if needed.
+
+Activate the workflow.
+
+Trigger it via the provided webhook URL.
+
+📸 Output
+You will receive a PNG image of the QR code generated from your provided URL.
+
+📁 Optional Enhancements
+Save images to cloud storage (e.g., Google Drive, Dropbox)
+
+Log URL requests in a database
+
+Add a timestamp or label to the QR code
+
+Schedule QR code generation based on cron triggers
+
+📜 License
+This project is open-source and available under the MIT License.
+
