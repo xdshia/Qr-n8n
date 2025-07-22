@@ -32,7 +32,7 @@ This n8n workflow generates a QR code from a given URL and outputs the QR code a
 - HTTP Request (to generate QR code from API like `https://api.qrserver.com/v1/create-qr-code/?data=...`)  
 - Binary Data (convert to image if needed)  
 - Respond with Image (optional)
-
+```
 🔧 Setup Instructions
 Clone this repo or import the workflow in your n8n instance.
 
